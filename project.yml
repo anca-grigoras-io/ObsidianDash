@@ -1,0 +1,32 @@
+name: ObsidianDash
+
+options:
+  deploymentTarget:
+    macOS: "14.0"
+  defaultConfig: Debug
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    ENABLE_HARDENED_RUNTIME: YES
+
+configs:
+  Debug: debug
+  Release: release
+
+targets:
+  ObsidianDash:
+    type: application
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources:
+      - path: Sources/ObsidianDash
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ancagrigoras.ObsidianDash
+        INFOPLIST_FILE: Sources/ObsidianDash/Info.plist
+        MARKETING_VERSION: "1.0.0"
+        CURRENT_PROJECT_VERSION: "1"
+        MACOSX_DEPLOYMENT_TARGET: "14.0"
+        SWIFT_VERSION: "5.9"
+        CODE_SIGN_STYLE: Automatic

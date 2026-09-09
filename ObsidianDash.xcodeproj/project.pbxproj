@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09F46B4664E3F1F9B4286002 /* MarkdownParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500C1D649677D74B7D9E1007 /* MarkdownParser.swift */; };
+		1285C1D9D6D0A25C923F28C8 /* DashboardCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92E82A059E50FDEFA8677A2 /* DashboardCard.swift */; };
+		18D3CDC572FA20AA11143307 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C60CBBE7E80F29C63DD810 /* Note.swift */; };
+		1AF78C3190E18BE52D7A8B52 /* ObsidianDashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29A449F300F690EE6459743 /* ObsidianDashApp.swift */; };
+		1CB5B96BA2CBB9D209C372C4 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF781FEE6A0A25DECA59357D /* AppState.swift */; };
+		218860F0D80059209DCEB3B0 /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DFF5E924A1621F0ECABDC4 /* EventRow.swift */; };
+		26D2A56FA5A0EE566398DE9A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE84CD548CE616667C796FC /* SettingsView.swift */; };
+		324A2FEF28C93E3B84EB150F /* VaultService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA11AD2B99244A8C4F1FE68 /* VaultService.swift */; };
+		4CD6FF1CD3EFE8112FAB9696 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3502961AEFECAEA44B34B7 /* ContentView.swift */; };
+		4F894E5C621A63472F3521DF /* ObsidianTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0A8A2128A2654195D735BD /* ObsidianTask.swift */; };
+		50CCF2BF07C4581C84AC49AE /* VaultOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744C195DA807F39C9E6A0234 /* VaultOnboardingView.swift */; };
+		5C0EA5D5F9C1A47D22608B3B /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0388726C7BD7B94628E3DFF0 /* OverviewView.swift */; };
+		6A7C816E6991295F4D493D3F /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ABA60424E062600C7FAABB /* TaskRow.swift */; };
+		7450BCED1813E464C1C42A08 /* NoteRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE44E082F5D9998E9985E07 /* NoteRow.swift */; };
+		7CA8B445919885580ADC7022 /* DailyNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15866C441A65D336F1CFA115 /* DailyNotesView.swift */; };
+		90BB8DA2455D36570C7E5274 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7FB6D6D4D99E2C036D5DA4 /* SidebarView.swift */; };
+		9E04EC76CB5E5B652FA8A1D7 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2971F48C8D088E52224CA /* StatsView.swift */; };
+		B7FF4F4F051C8F970E0D1B0C /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF331FA602402014CDA29BA3 /* ProjectsView.swift */; };
+		CA799A71070AE71E4CE2358E /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC9EE5FD9B2AC8781B29F3 /* TasksView.swift */; };
+		E0BFFAD35737B0AE079AB037 /* StatTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C403CAFDE1F13D8D49DA3F5 /* StatTile.swift */; };
+		ED48505153A55C16433926F7 /* CalendarDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D180956E156A6EE753469B0B /* CalendarDashboardView.swift */; };
+		F42D7CE3AF50F39548B15BBB /* CalendarEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B7733CFB8432A55DEFFBCE /* CalendarEvent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0388726C7BD7B94628E3DFF0 /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewView.swift; sourceTree = "<group>"; };
+		0BE84CD548CE616667C796FC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		15866C441A65D336F1CFA115 /* DailyNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyNotesView.swift; sourceTree = "<group>"; };
+		19ABA60424E062600C7FAABB /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		1A1B648352B6B705DE180A49 /* ObsidianDash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObsidianDash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3502961AEFECAEA44B34B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1C403CAFDE1F13D8D49DA3F5 /* StatTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatTile.swift; sourceTree = "<group>"; };
+		1DB2971F48C8D088E52224CA /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		1EA11AD2B99244A8C4F1FE68 /* VaultService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultService.swift; sourceTree = "<group>"; };
+		48DFF5E924A1621F0ECABDC4 /* EventRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
+		500C1D649677D74B7D9E1007 /* MarkdownParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownParser.swift; sourceTree = "<group>"; };
+		59C60CBBE7E80F29C63DD810 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		6547A1AB3B5EC3CEEB84ED3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6E0A8A2128A2654195D735BD /* ObsidianTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObsidianTask.swift; sourceTree = "<group>"; };
+		6F7FB6D6D4D99E2C036D5DA4 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		744C195DA807F39C9E6A0234 /* VaultOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultOnboardingView.swift; sourceTree = "<group>"; };
+		BF331FA602402014CDA29BA3 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
+		BF781FEE6A0A25DECA59357D /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		CEE44E082F5D9998E9985E07 /* NoteRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteRow.swift; sourceTree = "<group>"; };
+		D180956E156A6EE753469B0B /* CalendarDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDashboardView.swift; sourceTree = "<group>"; };
+		D5AC9EE5FD9B2AC8781B29F3 /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		D92E82A059E50FDEFA8677A2 /* DashboardCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCard.swift; sourceTree = "<group>"; };
+		E29A449F300F690EE6459743 /* ObsidianDashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObsidianDashApp.swift; sourceTree = "<group>"; };
+		F4B7733CFB8432A55DEFFBCE /* CalendarEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEvent.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0A6EFBC9F0AE82CD71FB652B /* ObsidianDash */ = {
+			isa = PBXGroup;
+			children = (
+				6547A1AB3B5EC3CEEB84ED3C /* Info.plist */,
+				D32310F2D03AFDF8CC2A19FE /* App */,
+				45BB6020C99A75627FBBCA59 /* Models */,
+				DC22EF562E539DD5A60DA7AB /* Services */,
+				B9F190E2603A25B6EFFB2BAA /* Views */,
+			);
+			name = ObsidianDash;
+			path = Sources/ObsidianDash;
+			sourceTree = "<group>";
+		};
+		1428230279F9ED00593079C6 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				0BE84CD548CE616667C796FC /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		2F7FDF0412D31A286DFA1CB4 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				744C195DA807F39C9E6A0234 /* VaultOnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		45BB6020C99A75627FBBCA59 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F4B7733CFB8432A55DEFFBCE /* CalendarEvent.swift */,
+				59C60CBBE7E80F29C63DD810 /* Note.swift */,
+				6E0A8A2128A2654195D735BD /* ObsidianTask.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5CE57B0947918AF51DA348B4 = {
+			isa = PBXGroup;
+			children = (
+				0A6EFBC9F0AE82CD71FB652B /* ObsidianDash */,
+				603710A259CEE42389E648C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E0DE7E602D6CDBC3A7AA6AF /* Dashboards */ = {
+			isa = PBXGroup;
+			children = (
+				D180956E156A6EE753469B0B /* CalendarDashboardView.swift */,
+				15866C441A65D336F1CFA115 /* DailyNotesView.swift */,
+				0388726C7BD7B94628E3DFF0 /* OverviewView.swift */,
+				BF331FA602402014CDA29BA3 /* ProjectsView.swift */,
+				1DB2971F48C8D088E52224CA /* StatsView.swift */,
+				D5AC9EE5FD9B2AC8781B29F3 /* TasksView.swift */,
+			);
+			path = Dashboards;
+			sourceTree = "<group>";
+		};
+		5E3462F3C7F30DDBC0CDBA81 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D92E82A059E50FDEFA8677A2 /* DashboardCard.swift */,
+				48DFF5E924A1621F0ECABDC4 /* EventRow.swift */,
+				CEE44E082F5D9998E9985E07 /* NoteRow.swift */,
+				1C403CAFDE1F13D8D49DA3F5 /* StatTile.swift */,
+				19ABA60424E062600C7FAABB /* TaskRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		603710A259CEE42389E648C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A1B648352B6B705DE180A49 /* ObsidianDash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9F190E2603A25B6EFFB2BAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A3502961AEFECAEA44B34B7 /* ContentView.swift */,
+				6F7FB6D6D4D99E2C036D5DA4 /* SidebarView.swift */,
+				5E3462F3C7F30DDBC0CDBA81 /* Components */,
+				5E0DE7E602D6CDBC3A7AA6AF /* Dashboards */,
+				2F7FDF0412D31A286DFA1CB4 /* Onboarding */,
+				1428230279F9ED00593079C6 /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D32310F2D03AFDF8CC2A19FE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BF781FEE6A0A25DECA59357D /* AppState.swift */,
+				E29A449F300F690EE6459743 /* ObsidianDashApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DC22EF562E539DD5A60DA7AB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				500C1D649677D74B7D9E1007 /* MarkdownParser.swift */,
+				1EA11AD2B99244A8C4F1FE68 /* VaultService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B619AD88F47FEA16FCCABE9E /* ObsidianDash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA9F47346002EE2492F96EF0 /* Build configuration list for PBXNativeTarget "ObsidianDash" */;
+			buildPhases = (
+				B39B60B25CD9169A86B4619C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObsidianDash;
+			packageProductDependencies = (
+			);
+			productName = ObsidianDash;
+			productReference = 1A1B648352B6B705DE180A49 /* ObsidianDash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA47D57DC12F00845E4E5992 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B619AD88F47FEA16FCCABE9E = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 460D81B67568485CC2DC7B53 /* Build configuration list for PBXProject "ObsidianDash" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 5CE57B0947918AF51DA348B4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 603710A259CEE42389E648C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B619AD88F47FEA16FCCABE9E /* ObsidianDash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B39B60B25CD9169A86B4619C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB5B96BA2CBB9D209C372C4 /* AppState.swift in Sources */,
+				ED48505153A55C16433926F7 /* CalendarDashboardView.swift in Sources */,
+				F42D7CE3AF50F39548B15BBB /* CalendarEvent.swift in Sources */,
+				4CD6FF1CD3EFE8112FAB9696 /* ContentView.swift in Sources */,
+				7CA8B445919885580ADC7022 /* DailyNotesView.swift in Sources */,
+				1285C1D9D6D0A25C923F28C8 /* DashboardCard.swift in Sources */,
+				218860F0D80059209DCEB3B0 /* EventRow.swift in Sources */,
+				09F46B4664E3F1F9B4286002 /* MarkdownParser.swift in Sources */,
+				18D3CDC572FA20AA11143307 /* Note.swift in Sources */,
+				7450BCED1813E464C1C42A08 /* NoteRow.swift in Sources */,
+				1AF78C3190E18BE52D7A8B52 /* ObsidianDashApp.swift in Sources */,
+				4F894E5C621A63472F3521DF /* ObsidianTask.swift in Sources */,
+				5C0EA5D5F9C1A47D22608B3B /* OverviewView.swift in Sources */,
+				B7FF4F4F051C8F970E0D1B0C /* ProjectsView.swift in Sources */,
+				26D2A56FA5A0EE566398DE9A /* SettingsView.swift in Sources */,
+				90BB8DA2455D36570C7E5274 /* SidebarView.swift in Sources */,
+				E0BFFAD35737B0AE079AB037 /* StatTile.swift in Sources */,
+				9E04EC76CB5E5B652FA8A1D7 /* StatsView.swift in Sources */,
+				6A7C816E6991295F4D493D3F /* TaskRow.swift in Sources */,
+				CA799A71070AE71E4CE2358E /* TasksView.swift in Sources */,
+				50CCF2BF07C4581C84AC49AE /* VaultOnboardingView.swift in Sources */,
+				324A2FEF28C93E3B84EB150F /* VaultService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0D4C37B51623284501D77820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Sources/ObsidianDash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ancagrigoras.ObsidianDash;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		2784F3C2BAEDA0BE43B10E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Sources/ObsidianDash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ancagrigoras.ObsidianDash;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		8C0B6B3AA3A49A2C33625EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		F411060A9A1D674366D6BEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		460D81B67568485CC2DC7B53 /* Build configuration list for PBXProject "ObsidianDash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0B6B3AA3A49A2C33625EE9 /* Debug */,
+				F411060A9A1D674366D6BEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CA9F47346002EE2492F96EF0 /* Build configuration list for PBXNativeTarget "ObsidianDash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D4C37B51623284501D77820 /* Debug */,
+				2784F3C2BAEDA0BE43B10E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA47D57DC12F00845E4E5992 /* Project object */;
+}
